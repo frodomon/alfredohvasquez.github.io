@@ -1,0 +1,38 @@
+---
+layout: default
+lang: es
+permalink: /es/
+---
+
+{% assign t = site.data.translations[lang] %}
+
+<section>
+  <h1>{{ t.home.hero.name }}</h1>
+  <h2>{{ t.home.hero.title }}</h2>
+
+  <p>{{ t.home.hero.description }}</p>
+
+  <ul>
+    {% for item in t.home.hero.highlights %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
+<section>
+  <h1>{{ t.leadership.title }}</h1>
+  <p>{{ t.leadership.description }}</p>
+
+  <h2>{{ t.leadership.principles.title }}</h2>
+  <ul>
+    {% for item in t.leadership.principles.items %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>{{ t.leadership.teamwork.title }}</h2>
+  <ul>
+    {% for item in t.leadership.teamwork.items %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
