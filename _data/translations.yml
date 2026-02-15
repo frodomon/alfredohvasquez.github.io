@@ -1,4 +1,6 @@
 en:
+  nav:
+    projects: "Projects"
   home:
     hero:
       name: "Alfredo Vásquez"
@@ -36,6 +38,8 @@ en:
         - "Prioritize clarity when the cost of error is high"
 
 es:
+  nav:
+    projects: "Proyectos"
   home:
     hero:
       name: "Alfredo Vásquez"
