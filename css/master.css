@@ -347,7 +347,11 @@ header nav a:hover{
   width: 24px;
   height: 2px;
   background: black;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
+}
+.nav a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 /* ------------------------------FOOTER---------------------- */
 footer{
