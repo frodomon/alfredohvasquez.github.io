@@ -104,7 +104,8 @@ h4 a:hover, h4 a:focus,
 h5 a:hover, h5 a:focus,
 h6 a:hover, h6 a:focus,
 p a:hover, p a:focus,
-a:hover, a:focus{ 
+a:hover, a:focus,
+a i:hover, a i:focus{ 
   color: var(--secondary-color);
   text-decoration: none;
 }
@@ -152,6 +153,11 @@ section{
   width:100%;
   padding: 3rem 5%;
   background-color: #FFFFFF;
+}
+.social{
+  font-size: 1.5rem;
+  margin: 0 0.25rem;
+  color: var(--primary-color);
 }
 /* ------------------------------GRID---------------------- */
 .container{
@@ -327,11 +333,7 @@ header nav a:focus,
 header nav a:hover{
   color: var(--secondary-color);
 }
-.social{
-  font-size: 1.5rem;
-  margin: 0 0.25rem;
-  color: var(--primary-color);
-}
+
 
 /* ------------------------------FOOTER---------------------- */
 footer{
@@ -367,9 +369,6 @@ footer a:focus{
 }
 #footer-logo{
   height: 60px;
-}
-.social{
-  height: 24px;
 }
 .menu-footer-menu-container ul{
   list-style: none;
