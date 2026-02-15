@@ -310,10 +310,10 @@ header{
   height:96px;
   text-align: center;
   color:var(--primary-color);
-  background-color:rgba(255,255,255,0.9);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-bottom: 1px solid var(--grey100); 
+  background-color:rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom:1px solid rgba(0,0,0,0.04); 
   padding: 0 5%;
   position:sticky;
   top:0;
@@ -326,6 +326,8 @@ header{
 header.scrolled{
   height:72px;
   box-shadow:0 8px 24px rgba(0,0,0,0.04);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 header h1{
   float: left;
