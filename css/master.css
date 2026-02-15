@@ -323,11 +323,18 @@ footer{
   min-height: 144px;
   padding-top: 3rem;
 }
-footer a{
+footer a,
+footer a:visited,
+footer p,
+footer h1,
+footer h2,
+footer h3,
+footer h4{
   color: var(--primary-bg-color);;
 }
-footer a:hover{
-  color: #CFCFCF;
+footer a:hover
+footer a:focus{
+  color: var(--secondary-color); 
 }
 .footer-top{
   width: 100%;
