@@ -267,6 +267,12 @@ section{
   align-items: center;
   justify-content: left;  
 }
+.flex-right-row{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: right;  
+}
 .flex-center-column{
   display: flex;
   flex-flow: column wrap;
@@ -313,6 +319,9 @@ header h1{
   height:40px;
   width: auto;
   display: block;
+}
+header nav a{
+  border-left: 0.25rem var(--grey200);
 }
 /* ------------------------------FOOTER---------------------- */
 footer{
