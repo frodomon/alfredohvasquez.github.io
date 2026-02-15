@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!toggle || !nav) return;
 
   const links = nav.querySelectorAll("a");
+  const header = document.querySelector("header");
+
+
 
   function openMenu() {
     toggle.classList.add("active");
@@ -36,4 +39,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 40) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+  
 });
