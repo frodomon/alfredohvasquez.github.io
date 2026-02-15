@@ -81,10 +81,6 @@ a, a:visited {
   line-height: 1rem;
   text-decoration: none;
 }
-a:focus, 
-a:hover{ 
-  text-decoration: none;
-}
 a img{
   border: none;
   width:100%;
@@ -96,7 +92,7 @@ h2, h2 a, h2 a:visited,
 h3, h3 a, h3 a:visited,
 h4, h4 a, h4 a:visited,
 h5, h5 a, h5 a:visited,
-h6, h6 a, h6 a:visited
+h6, h6 a, h6 a:visited,
 p a, p a:visited,
 a, a:visited{
   color: var(--primary-color);
@@ -109,7 +105,8 @@ h5 a:hover, h5 a:focus,
 h6 a:hover, h6 a:focus,
 p a:hover, p a:focus,
 a:hover, a:focus{ 
-  color: var(--secondary-color); 
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 p{
   color:var(--grey600); 
