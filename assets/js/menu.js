@@ -1,33 +1,32 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   const toggle = document.querySelector(".menu-toggle");
-  const overlay = document.querySelector(".overlay-nav");
-  const links = document.querySelectorAll(".overlay-content a");
+  const nav = document.querySelector(".nav");
+  const links = document.querySelectorAll(".nav a");
 
   function openMenu() {
     toggle.classList.add("active");
-    overlay.classList.add("active");
-    document.body.classList.add("menu-open");
+    nav.classList.add("active");
   }
 
   function closeMenu() {
     toggle.classList.remove("active");
-    overlay.classList.remove("active");
-    document.body.classList.remove("menu-open");
+    nav.classList.remove("active");
   }
 
-  toggle.addEventListener("click", function () {
-    overlay.classList.contains("active") ? closeMenu() : openMenu();
+  toggle.addEventListener("click", function (e) {
+    e.stopPropagation();
+    nav.classList.contains("active") ? closeMenu() : openMenu();
   });
 
   links.forEach(link => {
     link.addEventListener("click", closeMenu);
   });
 
-  overlay.addEventListener("click", function (e) {
-    if (!e.target.closest(".overlay-content")) {
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".nav") && !e.target.closest(".menu-toggle")) {
       closeMenu();
     }
   });
 
-})
+});
