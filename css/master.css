@@ -323,9 +323,12 @@ header h1{
 header nav a{
   border-left: 0.25rem solid var(--grey200);
   height:40px;
+  padding:0 0.25rem;
 }
 .social{
-  height: 24px;
+  font-size: 1.5rem !important;
+  margin: 0 0.25rem;
+  color: var(--primary-color);
 }
 
 /* ------------------------------FOOTER---------------------- */
