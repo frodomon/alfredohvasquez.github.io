@@ -94,15 +94,28 @@
     font-size: 1rem;
     border-left: none;
     border-bottom: 1px solid var(--grey100);
+    opacity:0;
+	  transform:translateY(-6px);
+	  transition:
+	    opacity 0.3s ease,
+	    transform 0.3s ease,
+	    background 0.2s ease;
   }
-   .nav a:last-child {
+  .nav.active a{
+	  opacity:1;
+	  transform:translateY(0);
+	}
+  .nav a:last-child {
     border-bottom: none;
   }
   .nav a:hover {
     background:rgba(0,0,0,0.025);
   	padding-left:calc(5% + 4px);
   }
-
+  .nav.active a:nth-child(1){ transition-delay:0.05s; }
+	.nav.active a:nth-child(2){ transition-delay:0.1s; }
+	.nav.active a:nth-child(3){ transition-delay:0.15s; }
+	.nav.active a:nth-child(4){ transition-delay:0.2s; }
 
 	/* Animación Hmaburguesa a X */
 	.menu-toggle span {
