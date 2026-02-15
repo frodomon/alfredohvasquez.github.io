@@ -148,6 +148,11 @@ dd{
 em{ 
   font-style: italic;
 }
+section{
+  width:100%;
+  padding: 3rem 5%;
+  background-color: #FFFFFF;
+}
 /* ------------------------------GRID---------------------- */
 .col-1{
   width: 8.3333%;
@@ -278,10 +283,13 @@ em{
 .fullheight{
   height: 100%;
 }
-section{
-  width:100%;
-  padding: 3rem 5%;
-  background-color: #FFFFFF;
+/* self-clear floats */
+.group:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
 }
 /* ------------------------------HEADER---------------------- */
 header{
