@@ -51,12 +51,13 @@ es:
     projects: "Proyectos"
   home:
     hero:
-      name: "Alfredo Vásquez"
-      title: "Design Lead en productos financieros y servicios digitales"
-      description: >
-        Lidero diseño desde la estrategia hasta la ejecución, alineando
-        negocio, tecnología y personas para construir productos claros,
-        escalables y con impacto real.
+      name: "Alfredo Vásquez Alcala"
+      title: "Strategic Design Leader for Digital Products & Platforms"
+      headline: "I align business strategy, product vision and user experience to build scalable digital solutions with measurable impact."
+      description: "I lead cross-functional teams, define design direction and drive product decisions that connect customer needs with business outcomes."
+      cta: 
+        primary: "Explore Case Studies"
+        secondary: "Connect"
       highlights:
         - "Experiencia en fintech, servicios y plataformas complejas"
         - "Background técnico que facilita el trabajo con ingeniería"
