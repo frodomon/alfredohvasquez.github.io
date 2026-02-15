@@ -321,9 +321,9 @@ header h1{
   display: block;
 }
 header nav a{
-  border-left: 0.25rem solid var(--grey200);
+  border-left: 2px solid var(--grey400);
   height:40px;
-  padding:0 0.25rem;
+  padding:0 1rem;
 }
 .social{
   font-size: 1.5rem;
