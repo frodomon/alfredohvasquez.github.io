@@ -326,14 +326,14 @@ header nav a{
   padding:0 1rem;
 font-size: 1.25rem;
 }
+header nav a:focus,
+header nav a:hover{
+  color: var(--secondary-color);
+}
 .social{
   font-size: 1.5rem;
   margin: 0 0.25rem;
   color: var(--primary-color);
-}
-.social:focus,
-.social>hover{
-  color: var(--secondary-color);
 }
 
 /* ------------------------------FOOTER---------------------- */
