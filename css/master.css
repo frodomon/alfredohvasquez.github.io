@@ -324,11 +324,16 @@ header nav a{
   border-left: 2px solid var(--grey400);
   height:40px;
   padding:0 1rem;
+font-size: 1.25rem;
 }
 .social{
   font-size: 1.5rem;
   margin: 0 0.25rem;
   color: var(--primary-color);
+}
+.social:focus,
+.social>hover{
+  color: var(--secondary-color);
 }
 
 /* ------------------------------FOOTER---------------------- */
