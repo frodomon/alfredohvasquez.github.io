@@ -6,45 +6,33 @@ permalink: /
 {% assign lang = page.lang | default: site.default_lang %}
 {% assign t = site.data.translations[lang] %}
 
-<h1>{{ t.home.title }}</h1>
-<p>{{ t.home.subtitle }}</p>
-
-
 <section>
-  <h1>Alfredo Vásquez</h1>
-  <h2>Design Lead en productos financieros y servicios digitales</h2>
+  <h1>{{ t.home.hero.name }}</h1>
+  <h2>{{ t.home.hero.title }}</h2>
 
-  <p>
-  Lidero diseño desde la estrategia hasta la ejecución, alineando negocio,
-  tecnología y personas para construir productos claros, escalables y con impacto real.
-  </p>
+  <p>{{ t.home.hero.description }}</p>
+
   <ul>
-    <li>Experiencia en fintech, servicios y plataformas complejas</li>
-    <li>Background técnico que facilita el trabajo con ingeniería</li>
-    <li>Foco en toma de decisiones, no solo ejecución visual</li>
+    {% for item in t.home.hero.highlights %}
+      <li>{{ item }}</li>
+    {% endfor %}
   </ul>
-</section>  
+</section>
 <section>
-  <h1>Cómo lidero diseño</h1>
-  <p>
-  He desarrollado mi carrera usando distintos “sombreros”: tecnología, datos,
-  producto, diseño y emprendimiento. Esta combinación me permite abordar
-  problemas complejos desde una mirada sistémica.
-  </p>
+  <h1>{{ t.leadership.title }}</h1>
+  <p>{{ t.leadership.description }}</p>
 
-  <h2>Principios</h2>
+  <h2>{{ t.leadership.principles.title }}</h2>
   <ul>
-    <li>Diseño es decisión, no decoración</li>
-    <li>El problema correcto vale más que la solución perfecta</li>
-    <li>Escalar diseño requiere sistemas, no héroes</li>
-    <li>El impacto se mide, no se asume</li>
+    {% for item in t.leadership.principles.items %}
+      <li>{{ item }}</li>
+    {% endfor %}
   </ul>
 
-  <h2>Trabajo con equipos</h2>
+  <h2>{{ t.leadership.teamwork.title }}</h2>
   <ul>
-    <li>Alineo stakeholders en contextos de alta complejidad</li>
-    <li>Defino criterios antes de diseñar</li>
-    <li>Mentoreo diseñadores promoviendo autonomía</li>
-    <li>Prioritizo claridad cuando el costo del error es alto</li>
+    {% for item in t.leadership.teamwork.items %}
+      <li>{{ item }}</li>
+    {% endfor %}
   </ul>
 </section>
