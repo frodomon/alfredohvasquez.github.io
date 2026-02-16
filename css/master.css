@@ -484,6 +484,7 @@ footer nav a:last-child{
   max-width: 70%;
   margin: 6rem auto 6rem;
   border-radius: 1.25rem;
+  padding:0;
 }
 .hero-subheadline{
   color: var(--grey700);
