@@ -210,12 +210,7 @@ section{
 .btn-secondary:focus{
   outline-offset: 2px;
 }
-.picture,
-#hero-picture{
-  width:100%;
-  height:auto;
-  display: block;
-}
+
 /* ------------------------------GRID---------------------- */
 .container{
   display:flex;
@@ -493,9 +488,20 @@ footer nav a:last-child{
   backdrop-filter: blur(60px);
   border-color: var(--grey500);
 }
+.hero-content{
+  padding: 2rem 1rem;
+}
 .hero-subheadline{
   color: var(--grey700);
 }
 .hero-support{
   color: var(--grey600);
+}
+#hero-picture{
+  width:auto;
+  height:100%;
+  background-image: url('../assets/images/Alfredo Vasquez.jpg'); /* Dirección de la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
