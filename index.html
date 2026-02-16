@@ -22,24 +22,29 @@ permalink: /
   </div>
 </section>
 <section class="container">
-  <h2>{{ t.leadership.title }}</h2>
-  <p>{{ t.leadership.description }}</p>
-  <ul>
-    {% for item in t.leadership.highlights %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-  <h3>{{ t.leadership.principles.title }}</h3>
-  <ul>
-    {% for item in t.leadership.principles.items %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-
-  <h3>{{ t.leadership.teamwork.title }}</h3>
-  <ul>
-    {% for item in t.leadership.teamwork.items %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
+  <div class="col-12 flex-center-row">
+    <h3>{{ t.leadership.title }}</h3>
+    <p>{{ t.leadership.description }}</p>
+    <ul>
+      {% for item in t.leadership.highlights %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-6 flex-center-row">
+    <h3>{{ t.leadership.principles.title }}</h3>
+    <ul>
+      {% for item in t.leadership.principles.items %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-6 flex-center-row">
+    <h3>{{ t.leadership.teamwork.title }}</h3>
+    <ul>
+      {% for item in t.leadership.teamwork.items %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
