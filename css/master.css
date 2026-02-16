@@ -459,18 +459,18 @@ footer h4{
   color: var(--primary-bg-color) !important;
 }
 footer a:hover,
-footer a:focus{
-  color: var(--secondary-color); 
+footer a:focus,
+footer a i:hover,
+footer a i:focus,
+footer nav a:focus,
+footer nav a:hover{
+  color: var(--secondary-color;
 }
 footer nav a{
   border-right: 2px solid var(--primary-bg-color);
   height:40px;
   padding:0 1rem;
   font-size: 1.25rem;
-}
-footer nav a:focus,
-footer nav a:hover{
-  color: var(--secondary-color);
 }
 footer nav a:last-child {
     border-right: 0;
