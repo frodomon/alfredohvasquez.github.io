@@ -477,9 +477,9 @@ footer nav a:last-child {
 }
 /* ------------------------------HERO---------------------- */
 #hero{
-  padding: 8rem 5% 6rem;
   max-width: 70%;
-  margin: 0 auto;
+  margin: 6rem auto 6rem;
+  border-radius: 1.25rem;
 }
 .hero-subheadline{
   color: var(--grey700);
