@@ -450,6 +450,7 @@ footer{
   padding: 0 5%;
 }
 footer a, footer a:visited,
+footer nav a, footer nav a:visited,
 footer a i,
 footer p,
 footer h1,
@@ -472,9 +473,9 @@ footer nav a{
   padding:0 1rem;
   font-size: 1.25rem;
 }
-footer nav a:last-child {
-    border-right: 0;
-  }
+footer nav a:last-child{
+  border-right: 0;
+}
 .copyright{
   text-align: left;
 }
