@@ -23,15 +23,18 @@ permalink: /
 </section>
 <section class="container">
   <div class="col-12 flex-center-row">
-    <h3>{{ t.leadership.title }}</h3>
+    <hw>{{ t.leadership.title }}</hw>
     <p>{{ t.leadership.description }}</p>
+  </div>
+  <div class="col-4 flex-center-row">  
+    <h3>{{ t.leadership.experience.title }}</h3>
     <ul>
-      {% for item in t.leadership.highlights %}
+      {% for item in t.leadership.experience.highlights %}
         <li>{{ item }}</li>
       {% endfor %}
     </ul>
   </div>
-  <div class="col-6 flex-center-row">
+  <div class="col-4 flex-center-row">
     <h3>{{ t.leadership.principles.title }}</h3>
     <ul>
       {% for item in t.leadership.principles.items %}
@@ -39,7 +42,7 @@ permalink: /
       {% endfor %}
     </ul>
   </div>
-  <div class="col-6 flex-center-row">
+  <div class="col-4 flex-center-row">
     <h3>{{ t.leadership.teamwork.title }}</h3>
     <ul>
       {% for item in t.leadership.teamwork.items %}
