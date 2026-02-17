@@ -1,6 +1,6 @@
 ---
 layout: case
 lang: en
-case: otto
-permalink: /otto/
+case: eltablerodeotto
+permalink: /eltablerodeotto
 ---

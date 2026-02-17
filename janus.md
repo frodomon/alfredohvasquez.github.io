@@ -2,7 +2,7 @@
 layout: case
 lang: en
 case: janus
-permalink: /janus/
+permalink: /janus
 ---
 
 <h1>Crédito Hipotecario Digital (Janus)</h1>
