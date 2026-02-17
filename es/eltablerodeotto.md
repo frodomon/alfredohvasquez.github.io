@@ -2,5 +2,5 @@
 layout: case
 lang: es
 case: eltablerodeotto
-permalink: /es/eltablerodeotto/
+permalink: /es/eltablerodeotto
 ---
