@@ -1,2 +1,4 @@
-<a class="flex-center-row" href="{{ page.url | replace:'/es','' }}">EN</a>
-<a class="flex-center-row" href="/es{{ page.url }}">ES</a>
+{% assign clean_url = page.url | remove_first:'/es' %}
+
+<a class="flex-center-row" href="{{ site.baseurl }}{{ clean_url }}">EN</a>
+<a class="flex-center-row" href="{{ site.baseurl }}/es{{ clean_url }}">ES</a>

@@ -10,9 +10,9 @@ permalink: /
    <div id="hero-picture" class="col-4 flex-center-row">
    </div>
    <div class="hero-content col-8 flex-left-row">
-    <h1>{{ t.home.hero.name }}</h1>
-    <h2>{{ t.home.hero.title }}</h2>
-    <p class="hero-subheadline">{{ t.home.hero.headline }}</p>
+    <h2>{{ t.home.hero.name }}</h2>
+    <h1>{{ t.home.hero.title }}</h1>
+    <h3 class="hero-subheadline">{{ t.home.hero.headline }}</h3>
     <p class="hero-support">{{ t.home.hero.description }}</p>
     <div class="hero-cta">
       <a href="{{ '/cases.html' | relative_url }}" class="btn btn-primary">{{ t.home.hero.cta.primary }}</a>

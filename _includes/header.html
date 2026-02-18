@@ -1,7 +1,7 @@
 <header class="container flex-space-between-row">
   <div class='header-left left fullheight flex-center-row'>
     <a href="{{ '/'  | relative_url }}">
-      <img id="logo-header" src="{{ '/assets/images/AV Logo Black.png' | relative_url }}">
+      <img id="logo-header" src="{{ '/assets/images/av-logo-black.png' | relative_url }}" alt="Alfredo Vásquez Strategic Design Lead">
     </a>
   </div>
   <div class='header-right right fullheight flex-center-row'>
@@ -11,8 +11,8 @@
       <span></span>
     </button>
     <nav class='flex-right-row nav'>
-      <a class="flex-center-row" href="{{ '/cases.html' | relative_url }}">{{ t.case_studies }}</a>
-      <a class="flex-center-row" href="mailto:vasquez.alf@gmail.com" target="_blank"><i class="fa-regular fa-envelope social" aria-hidden="true"></i>Escríbeme</a>
+      <a class="flex-center-row" href="{{ '/cases/' | relative_url }}">{{ t.case_studies }}</a>
+      <a class="flex-center-row" href="mailto:vasquez.alf@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope social" aria-hidden="true"></i>Escríbeme</a>
       {% include language-switcher.html %}
     </nav>
   </div>
