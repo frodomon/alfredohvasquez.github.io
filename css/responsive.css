@@ -15,6 +15,29 @@
 @media only screen and (min-width: 992px) and (max-width: 1023px)
 }
 @media only screen and (min-width: 600px) and (max-width: 991px){
+  .hero-actions {
+    flex-direction: row;
+  }
+  .capability-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #hero {
+    padding-top: 9rem;
+    padding-bottom: 7rem;
+  }
+  .hero-title {
+    font-size: 3rem;
+  }
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .capability-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media only screen and (max-width: 599px){
 	html{
@@ -163,4 +186,34 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .capability-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border: 1px solid var(--grey200);
+  border-radius: var(--radius);
+  background: var(--grey100);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.list {
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+  color: var(--grey500);
+}
 }

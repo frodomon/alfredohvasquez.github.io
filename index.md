@@ -10,6 +10,21 @@ permalink: /
 {% assign t = site.data.translations[lang][page.page_key] %}
 
  <!-- HERO -->
+<section class="hero">
+    <div class="container">
+      <h1 class="hero-title">{{ t.hero.title }}</h1>
+      <p class="hero-subtitle">{{ t.hero.subtitle }}</p>
+      <div class="hero-actions">
+        <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">
+          {{ t.hero.cta_primary }}
+        </a>
+        <a href="mailto:vasquez.alf@gmail.com" class="btn btn-secondary">
+          {{ t.hero.cta_secondary }}
+        </a>
+      </div>
+    </div>
+  </section>
+
 <section class="hero container">
   <h1>{{ t.hero.title }}</h1>
   <p class="hero-subtitle">{{ t.hero.subtitle }}</p>
@@ -22,15 +37,20 @@ permalink: /
     </a>
   </div>
 </section>
+
 <!-- CREDIBILITY -->
-<section class="credibility container">
-  <p>{{ t.credibility }}</p>
-</section>
+ <section class="credibility">
+    <div class="container">
+      <p class="credibility-text">{{ t.credibility }}</p>
+    </div>
+  </section>
 <!-- WHAT I DO -->
-<section class="what-i-do container">
-  <h2>{{ t.what.title }}</h2>
-  <p>{{ t.what.description }}</p>
-</section>
+<section>
+    <div class="container">
+      <h2 class="section-title">{{ t.what.title }}</h2>
+      <p class="section-lead">{{ t.what.description }}</p>
+    </div>
+  </section>
 <!-- CAPABILITIES -->
 <section class="capabilities container">
   <h2>{{ t.capabilities.title }}</h2>
