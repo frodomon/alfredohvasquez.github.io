@@ -22,8 +22,7 @@
     grid-template-columns: 1fr;
   }
   #hero {
-    padding-top: 9rem;
-    padding-bottom: 7rem;
+  	padding: 6rem 5% 4rem 5%;
   }
   .hero-title {
     font-size: 3rem;
