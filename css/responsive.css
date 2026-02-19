@@ -60,7 +60,6 @@
 		padding: 1.5rem 5%;
 	}
 	/* Header layout */
-
 	header{
 		padding:0;
 	}
@@ -79,14 +78,12 @@
     border: none;
     z-index: 1100;
   }
-
   .menu-toggle span {
     width: 24px;
     height: 2px;
     background: #111;
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
-
  .nav {
 	 position: absolute;
 	 top: 96px; /* misma altura que tu header */

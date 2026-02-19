@@ -464,7 +464,7 @@ footer nav a:last-child{
 /* ------------------------------HERO---------------------- */
 #hero{
   background: var(--primary-bg-color);
-  padding: 6rem 10% 4rem 10%;
+  padding: 9rem 10% 6rem 10%;
   border-radius: 1.25rem;
   border-bottom: 1px solid var(--grey200);
 }
