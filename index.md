@@ -25,20 +25,6 @@ permalink: /
       </div>
     </div>
   </section>
-
-<section class="hero container">
-  <h1>{{ t.hero.title }}</h1>
-  <p class="hero-subtitle">{{ t.hero.subtitle }}</p>
-  <div class="hero-cta">
-    <a href="{{ '/cases/' | relative_url }}" class="btn-primary">
-      {{ t.hero.cta_primary }}
-    </a>
-    <a href="mailto:vasquez.alf@gmail.com" class="btn-secondary">
-      {{ t.hero.cta_secondary }}
-    </a>
-  </div>
-</section>
-
 <!-- CREDIBILITY -->
  <section class="credibility">
     <div class="container">
