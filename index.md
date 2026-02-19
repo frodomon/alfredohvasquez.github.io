@@ -10,21 +10,17 @@ permalink: /
 {% assign t = site.data.translations[lang][page.page_key] %}
 
  <!-- HERO -->
-<section class="hero">
-    <div class="container">
-      <p class="hero-eyebrow">{{ t.hero.eyebrow }}</p>
-      <h1 class="hero-title">{{ t.hero.title }}</h1>
-      <p class="hero-subtitle">{{ t.hero.subtitle }}</p>
-      <div class="hero-actions">
-        <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">
-          {{ t.hero.cta_primary }}
-        </a>
-        <a href="mailto:vasquez.alf@gmail.com" class="btn btn-secondary">
-          {{ t.hero.cta_secondary }}
-        </a>
-      </div>
+<section id="hero">
+  <div class="container">
+    <p class="hero-eyebrow">{{ t.hero.eyebrow }}</p>
+    <h1 class="hero-title">{{ t.hero.title }}</h1>
+    <p class="hero-subtitle">{{ t.hero.subtitle }}</p>
+    <div class="hero-actions">
+      <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">{{ t.hero.cta_primary }}</a>
+      <a href="mailto:vasquez.alf@gmail.com" class="btn btn-secondary">{{ t.hero.cta_secondary }}</a>
     </div>
-  </section>
+  </div>
+</section>
 <!-- CREDIBILITY -->
  <section class="credibility">
     <div class="container">

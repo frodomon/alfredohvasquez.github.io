@@ -472,11 +472,6 @@ footer nav a:last-child{
   position: relative;
   padding-bottom: 1.25rem;
 }
-.hero-subtitle{
-  margin-top: 1.5rem;
-  font-size: 1.125rem;
-  color: var(--grey500);
-}
 .hero-title::after {
   content: "";
   position: absolute;
@@ -487,13 +482,15 @@ footer nav a:last-child{
   background: var(--secondary-color);
   border-radius: 2px;
 }
-.hero-content{
-  padding: 2rem 1rem;
+.hero-subtitle{
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  color: var(--grey500);
 }
 .hero-actions{
   margin-top: 2rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 }
 #hero-picture{
@@ -545,9 +542,7 @@ footer nav a:last-child{
   border-top: 1px solid var(--grey200);
   border-bottom: 1px solid var(--grey200);
 }
-
 .credibility-text {
-  font-size: 1rem;
   color: var(--grey500);
   text-align: center;
 }
