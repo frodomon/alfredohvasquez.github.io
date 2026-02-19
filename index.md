@@ -68,29 +68,26 @@ permalink: /
   </section>
 <!-- FEATURED CASES -->
 <section class="featured-cases container">
-  <h2>{{ t.cases.title }}</h2>
+  <h2 class="section-title">{{ t.cases.title }}</h2>
   <p>{{ t.cases.description }}</p>
-  <a href="{{ '/cases/' | relative_url }}" class="btn-primary">
+  <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">
     {{ t.cases.cta }}
   </a>
 </section>
 <!-- LEADERSHIP -->
 <section class="leadership container">
-  <h2>{{ t.leadership.title }}</h2>
+  <h2 class="section-title">{{ t.leadership.title }}</h2>
   <p>{{ t.leadership.text }}</p>
 </section>
 
 <!-- FINAL CTA -->
 <section class="final-cta container">
-  <h2>{{ t.final.title }}</h2>
-  <a href="mailto:vasquez.alf@gmail.com" class="btn-primary">
-    {{ t.final.cta }}
-  </a>
+  <h2 class="section-title">{{ t.final.title }}</h2>
+  <a href="mailto:vasquez.alf@gmail.com" class="btn btn-primary">{{ t.final.cta }}</a>
 </section>
 
 <section>
   <h2>Selected Work</h2>
-
   <article>
     <h3><a href="/janus.html">Digital Mortgage Product (Janus)</a></h3>
     <p>
