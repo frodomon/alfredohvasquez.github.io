@@ -157,6 +157,7 @@ em{
   font-style: italic;
 }
 section{
+  width: 100%;
   padding: 4rem 10%;
 }
 article{
@@ -463,8 +464,7 @@ footer nav a:last-child{
 /* ------------------------------HERO---------------------- */
 #hero{
   background: var(--primary-bg-color);
-  max-width: 80%;
-  padding: 6rem auto 4rem;
+  padding: 6rem 10% 4rem 10%;
   border-radius: 1.25rem;
   border-bottom: 1px solid var(--grey200);
 }
