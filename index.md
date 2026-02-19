@@ -67,41 +67,32 @@ permalink: /
     </div>
   </section>
 <!-- FEATURED CASES -->
-<section class="featured-cases container">
+<section>
   <h2 class="section-title">{{ t.cases.title }}</h2>
   <p>{{ t.cases.description }}</p>
-  <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">
-    {{ t.cases.cta }}
-  </a>
-</section>
-<!-- LEADERSHIP -->
-<section class="leadership container">
-  <h2 class="section-title">{{ t.leadership.title }}</h2>
-  <p>{{ t.leadership.text }}</p>
-</section>
-
-<!-- FINAL CTA -->
-<section class="final-cta container">
-  <h2 class="section-title">{{ t.final.title }}</h2>
-  <a href="mailto:vasquez.alf@gmail.com" class="btn btn-primary">{{ t.final.cta }}</a>
-</section>
-
-<section>
-  <h2>Selected Work</h2>
   <article>
-    <h3><a href="/janus.html">Digital Mortgage Product (Janus)</a></h3>
+    <h3><a href="{{ '/janus/' | relative_url }}">Digital Mortgage Product (Janus)</a></h3>
     <p>
       Led strategic design decisions in a regulated fintech mortgage
       product balancing compliance, clarity and business outcomes.
     </p>
   </article>
-
   <article>
-    <h3><a href="/eltablerodeotto.html">Otto – Community Business Design</a></h3>
+    <h3><a href="{{ '/eltablerodeotto/' | relative_url }}">Otto – Community Business Design</a></h3>
     <p>
       Entrepreneurial case integrating service design, business model
       strategy and technology to build a sustainable ecosystem.
     </p>
   </article>
+</section>
+<!-- LEADERSHIP -->
+<section>
+  <h2 class="section-title">{{ t.leadership.title }}</h2>
+  <p>{{ t.leadership.text }}</p>
+</section>
+<!-- FINAL CTA -->
+<section>
+  <h2 class="section-title">{{ t.final.title }}</h2>
+  <a href="mailto:vasquez.alf@gmail.com" class="btn btn-primary">{{ t.final.cta }}</a>
 </section>
 
