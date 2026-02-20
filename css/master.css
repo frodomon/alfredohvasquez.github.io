@@ -14,6 +14,7 @@
   --grey100:#F4F4F4;
   --radius:0.5rem;
 }
+/* ------------------------------BASE LAYOUT---------------------- */
 *{
   box-sizing: border-box;
 }

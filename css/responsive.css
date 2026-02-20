@@ -1,65 +1,29 @@
-@media only screen and (min-width: 7680px){
+@media only screen and (min-width: 1920px){
 
 }
-@media only screen and (min-width: 3840px) and (max-width: 7679px){
+@media only screen and (max-width: 1280px){
 
 }
-@media only screen and (min-width: 2560px) and (max-width: 3839px){
-}
-@media only screen and (min-width: 1920px)and (max-width: 2559px){
-}
-@media only screen and (min-width: 1440px) and (max-width: 1919px)
-}
-@media only screen and (min-width: 1024px) and (max-width: 1439px){
-}
-@media only screen and (min-width: 992px) and (max-width: 1023px)
-}
-@media only screen and (min-width: 600px) and (max-width: 991px){
-  .hero-actions {
-    flex-direction: row;
-  }
-  .grid-3 {
-    grid-template-columns: 1fr;
-  }
-  #hero {
-  	padding: 6rem 5% 4rem 5%;
-  }
-  .hero-title {
-    font-size: 3rem;
-  }
-  .hero-subtitle {
-    font-size: 1.25rem;
-  }
-  .section-title {
-    font-size: 1.75rem;
-  }
+@media only screen and (max-width: 1024px){
 
-  .capability-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
-@media only screen and (max-width: 599px){
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 480px){
+	/* ----------------------------BASE LAYOUT---------------------- */
 	html{
 		font-size: 14px;
-	}
-	.col-1,
-	.col-2,
-	.col-3,
-	.col-4,
-	.col-5,
-	.col-6,
-	.col-7,
-	.col-8,
-	.col-9,
-	.col-10,
-	.col-11{
-		width: 100%;
-		padding:0;
 	}
 	section{
 		padding: 1.5rem 5%;
 	}
-	/* Header layout */
+	/* ------------------------------GRID---------------------- */
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11{
+		width: 100%;
+		padding:0;
+	}
+	/* ------------------------------HEADER---------------------- */
 	header{
 		padding:0;
 	}
@@ -138,24 +102,20 @@
 	.nav.active a:nth-child(2){ transition-delay:0.1s; }
 	.nav.active a:nth-child(3){ transition-delay:0.15s; }
 	.nav.active a:nth-child(4){ transition-delay:0.2s; }
-
 	/* Animación Hmaburguesa a X */
 	.menu-toggle span {
     transition: transform 0.3s cubic-bezier(.4,0,.2,1), opacity 0.2s ease;
   }
-
   .menu-toggle.active span:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-
   .menu-toggle.active span:nth-child(2) {
     opacity: 0;
   }
-
   .menu-toggle.active span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-	/* Footer layout */
+	/* ------------------------------FOOTER---------------------- */
 	footer{
 		padding-top: 1rem;
 	}
@@ -184,6 +144,5 @@
 	}
 	.card {
 	  background: var(--grey100);
-	}  
-	
+	}
 }
