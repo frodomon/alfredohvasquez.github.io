@@ -73,7 +73,7 @@ permalink: /
   <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">{{ t.cases.cta }}</a>
 </section>
 <!-- LEADERSHIP PHILOSOPHY-->
-<section class=¨philosophy¨>
+<section class="philosophy">
   <h2 class="section-title">{{ t.leadership.title }}</h2>
   <p>{{ t.leadership.text }}</p>
 </section>
