@@ -1,22 +1,22 @@
 en:
   home:
-    meta_title: "Strategic Design Lead | Driving Business Impact"
-    meta_description: "Strategic Design Lead driving measurable impact through product strategy, design systems and organizational alignment across complex digital ecosystems."
+    meta_title: "Strategic Design Lead | Fintech Product Strategy & Organizational Capability"
+    meta_description: "Strategic Design Lead specializing in fintech and enterprise product strategy, design systems and organizational capability across complex digital ecosystems."
     case_studies: "Case Studies"
     contact: "Let's connect"
 
     hero:
-      eyebrow: "Strategic Design Leadership"
-      title: "Strategic Design Lead driving measurable impact across complex digital ecosystems."
-      subtitle: "I lead multidisciplinary design teams to scale products, align business strategy and deliver meaningful customer impact across corporate and emerging markets."
+      eyebrow: "Strategic Design & Product Leadership"
+      title: "Building enterprise-grade design capability for complex, large-scale fintech and product ecosystems."
+      subtitle: "I partner with executive and product leaders to align strategy, governance and design systems — enabling sharper product decisions, operational coherence and sustained business performance."
       cta_primary: "Explore Case Studies"
       cta_secondary: "Let’s Connect"
 
-    credibility: "Design leadership across fintech, banking and digital platforms in Latin America."
+    credibility: "Design leadership across fintech, banking and large-scale enterprise digital platforms in Latin America."
 
     what:
       title: "Design Leadership at the intersection of product, systems and business."
-      description: "I operate at the intersection of product strategy, service design and organizational alignment — translating complexity into scalable systems that drive growth and operational clarity."
+      description: "I build enterprise design capability at the intersection of product strategy, service design and organizational alignment — turning complexity into structural advantage."
 
     capabilities:
       title: "Core Strategic Capabilities"
@@ -24,42 +24,47 @@ en:
       org:
         title: "Organizational Design Leadership"
         items:
-          - "Building and mentoring high-performing design teams"
-          - "Establishing governance and scalable design standards"
-          - "Driving cross-functional alignment"
+          - "Building high-performing design organizations aligned with enterprise product and business strategy"
+          - "Establishing governance models that enable consistency, velocity and decision clarity"
+          - "Embedding cross-functional alignment into operating models"
 
       product:
         title: "Product & Systems Thinking"
         items:
-          - "End-to-end service design"
-          - "Scalable design systems"
-          - "Enterprise UX strategy"
+          - "Designing end-to-end service ecosystems that connect product, operations and customer experience"
+          - "Implementing scalable design systems that accelerate enterprise product delivery"
+          - "Defining UX strategy frameworks for complex organizational environments"
 
       business:
-        title: "Business Impact"
+        title: "Business Performance Enablement"
         items:
-          - "Conversion and growth optimization"
-          - "Operational efficiency initiatives"
-          - "Customer experience transformation"
+          - "Improving conversion and growth metrics through product strategy alignment"
+          - "Increasing operational efficiency through structured design processes"
+          - "Strengthening customer value propositions across digital portfolios"
 
     cases:
       title: "Selected Strategic Initiatives"
-      description: "A selection of initiatives where design leadership drove measurable business and product impact."
-      cta: "View Case Studies"
-      janus:
+      description: "A selection of enterprise and fintech initiatives where design leadership reshaped product direction and organizational performance."
+      cta: "Explore Case Studies"
+
+    leadership:
+      title: "Leadership Philosophy"
+      text: "Design leadership is not visual refinement — it is structural influence. It defines how product decisions are framed, how risk is managed and how enterprise capability evolves."
+
+    signature:
+      statement: "Design is not an output. It is an operating system for product organizations."
+
+    final:
+      title: "Let’s build enterprise design organizations that endure."
+      cta: "Let's connect"
+  # Caso Janus (EN)
+  cases:
+    janus:
         title: "Digital Mortgage Product (Janus)"
         description: "Led strategic design decisions in a regulated fintech mortgage product balancing compliance, clarity and business outcomes."
       eltablerodeotto:
         title: "El Tablero de Otto – Community Business Design"
         description: "Entrepreneurial case integrating service design, business model strategy and technology to build a sustainable ecosystem."
-    leadership:
-      title: "Leadership Philosophy"
-      text: "Design leadership is not about visual polish — it is about clarity, alignment and measurable outcomes. Strong design organizations are built through trust, systems thinking and strategic execution."
-
-    final:
-      title: "Let’s build design organizations that scale."
-      cta: "Let's connect"
-  # Caso Janus (EN)
   janus:
     cover_image: /assets/images/janus-cover.webp
     case_studies: "Case Studies"
@@ -90,65 +95,72 @@ en:
 
 es:
   home:
-    meta_title: "Strategic Design Lead | Liderando Impacto en el Negocio"
-    meta_description: "Strategic Design Lead impulsando impacto medible a través de estrategia de producto, design systems y alineación organizacional en ecosistemas digitales complejos."
-    case_studies: "Casos de  Estudio"
-    contact: "Escríbeme"
-
+    meta_title: "Strategic Design Lead | Estrategia de Producto Fintech y Capacidad Organizacional"
+    meta_description: "Strategic Design Lead en fintech y estrategia de producto corporativa, sistemas de diseño y capacidad organizacional en ecosistemas digitales complejos."
+    case_studies: "Casos de Estudio"
+    contact: "Conversemos"
+    
     hero:
-      eyebrow: "Strategic Design Leadership"
-      title: "Strategic Design Lead que entrega impacto medible en ecosistemas digitales complejos."
-      subtitle: "Lidero equipos multidisciplinarios de diseño para escalar productos, alinear la estrategia de negocio y generar impacto significativo en entornos corporativos y mercados emergentes."
+      eyebrow: "Strategic Design & Product Leadership"
+      title: "Construyendo capacidad de diseño corporativa para fintech y ecosistemas de producto de alta complejidad y gran escala."
+      subtitle: "Trabajo junto a líderes ejecutivos y de producto para alinear estrategia, gobernanza y sistemas de diseño — impulsando mejores decisiones de producto, coherencia operativa y desempeño sostenible."
       cta_primary: "Explorar Casos"
       cta_secondary: "Conversemos"
-      
-    credibility: "Liderazgo en diseño para el sector fintech, banca y plataformas digitales en Latinoamérica."
+    
+    credibility: "Liderazgo en diseño en fintech, banca y plataformas digitales corporativas de gran escala en Latinoamérica."
 
     what:
       title: "Liderazgo en diseño en la intersección de producto, sistemas y negocio."
-      description: "Opero en la intersección entre estrategia de producto, service design y alineación organizacional — transformando complejidad en sistemas escalables que impulsan crecimiento y claridad operativa."
+      description: "Construyo capacidad de diseño corporativa en la intersección entre estrategia de producto, diseño de servicios y alineación organizacional — transformando la complejidad organizacional en ventaja estructural."
 
     capabilities:
       title: "Capacidades Estratégicas Clave"
+
       org:
         title: "Liderazgo Organizacional en Diseño"
         items:
-          - "Construcción y mentoría de equipos de alto desempeño"
-          - "Establecimiento de Gobernanza y estándares de diseño escalables"
-          - "Impulso del alineamiento multidisciplinario."
+          - "Construcción de organizaciones de diseño de alto desempeño alineadas con la estrategia de producto corporativa y de negocio"
+          - "Implementación de modelos de gobernanza que aportan consistencia, velocidad y claridad en las decisiones"
+          - "Integración del alineamiento multidisciplinario en el modelo operativo"
 
       product:
         title: "Pensamiento Sistémico y Producto"
         items:
-          - "Service design end-to-end"
-          - "Design systems escalables"
-          - "Estrategia UX para entornos corporativos"
+          - "Diseño de ecosistemas end-to-end que conectan producto, operaciones y experiencia del cliente"
+          - "Implementación de sistemas de diseño escalables que aceleran la entrega de producto en entornos corporativos"
+          - "Definición de marcos de trabajo de estrategia UX para entornos organizacionales complejos"
 
       business:
-        title: "Impacto en Negocio"
+        title: "Impulso del desempeño de negocio"
         items:
-          - "Optimización de conversión y crecimiento"
-          - "Iniciativas de eficiencia operativa"
-          - "Transformación de experiencia del cliente"
-
+          - "Mejora de métricas de conversión y crecimiento mediante alineación estratégica entre producto y negocio"
+          - "Incremento de eficiencia operativa mediante procesos de diseño estructurados"
+          - "Fortalecimiento de la propuesta de valor en portafolios digitales"
+ 
     cases:
-      title: "Iniciativas Estratégicas Seleccionadas"
-      description: "Proyectos donde mi liderazgo en diseño generó impacto medible en negocio y producto."
+      title: "Iniciativas Seleccionadas"
+      description: "Una selección de iniciativas corporativas y fintech donde el liderazgo en diseño redefinió la dirección de producto y el desempeño organizacional."
       cta: "Explorar Casos"
-      janus:
+      
+    leadership:
+      title: "Filosofía de Liderazgo"
+      text: "El liderazgo en diseño no es refinamiento visual — es influencia estructural. Define cómo se encuadran las decisiones de producto, cómo se gestiona el riesgo y cómo evoluciona la capacidad organizacional."
+
+    signature:
+      statement: "El diseño no es un entregable. Es un sistema operativo para organizaciones de producto."
+
+    final:
+      title: "Construyamos organizaciones de diseño corporativas que perduren."
+      cta: "Conversemos" 
+  
+  cases:
+    janus:
         title: "Producto Digital Hipotecario (Janus)"
         description: "Lideré decisiones de diseño estratégico en un producto fintech hipotecario regulado, equilibrando cumplimiento normativo, claridad para el usuario y resultados de negocio."
 
       eltablerodeotto:
         title: "El Tablero de Otto – Diseño de Negocio Comunitario"
         description: "Caso emprendedor que integra diseño de servicios, estrategia de modelo de negocio y tecnología para construir un ecosistema sostenible."
-    leadership:
-      title: "Filosofía de Liderazgo"
-      text: "El liderazgo en diseño no se trata solo de estética, sino de claridad, alineación y resultados medibles. Las organizaciones sólidas se construyen con confianza, pensamiento sistémico y ejecución estratégica."
-
-    final:
-      title: "Construyamos organizaciones de diseño que escalen."
-      cta: "Conversemos"  
   janus:
     cover_image: /assets/images/janus-cover.webp
     case_studies: "Casos de  Estudio"
