@@ -36,51 +36,44 @@ permalink: /es/
   </section>
 <!-- CAPABILITIES -->
 <section>
-    <div>
-      <h2 class="section-title">{{ t.capabilities.title }}</h2>
-      <div class="capability-grid">
-        <div class="card">
-          <h3>{{ t.capabilities.org.title }}</h3>
-          <ul class="list">
-            {% for item in t.capabilities.org.items %}
-            <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="card">
-          <h3 class="card-title">{{ t.capabilities.product.title }}</h3>
-          <ul class="list">
-            {% for item in t.capabilities.product.items %}
-            <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="card">
-          <h3 class="card-title">{{ t.capabilities.business.title }}</h3>
-          <ul class="list">
-            {% for item in t.capabilities.business.items %}
-            <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </div>
+  <div>
+    <h2 class="section-title">{{ t.capabilities.title }}</h2>
+    <div class="capability-grid">
+      <div class="card">
+        <h3>{{ t.capabilities.org.title }}</h3>
+        <ul class="list">
+          {% for item in t.capabilities.org.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="card-title">{{ t.capabilities.product.title }}</h3>
+        <ul class="list">
+          {% for item in t.capabilities.product.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="card-title">{{ t.capabilities.business.title }}</h3>
+        <ul class="list">
+          {% for item in t.capabilities.business.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
-  </section>
-<!-- FEATURED CASES -->
-<section>
-  <h2 class="section-title">{{ t.cases.title }}</h2>
-  <p>{{ t.cases.description }}</p>
-  <article>
-    <h3><a href="{{ '/janus/' | relative_url }}">{{ t.cases.janus.title }}</a></h3>
-    <p>{{ t.cases.janus.description }}</p>
-  </article>
-  <article>
-    <h3><a href="{{ '/eltablerodeotto/' | relative_url }}">{{ t.cases.eltablerodeotto.title }}</a></h3>
-    <p>{{ t.cases.eltablerodeotto.description }} </p>
-  </article>
+  </div>
 </section>
-<!-- LEADERSHIP -->
-<section>
+<!-- FEATURED CASES -->
+<section class="featured-cases">
+  <h2>{{ t.cases.title }}</h2>
+  <p>{{ t.cases.description }}</p>
+  <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">{{ t.cases.cta }}</a>
+</section>
+<!-- LEADERSHIP PHILOSOPHY-->
+<section class=¨philosophy¨>
   <h2 class="section-title">{{ t.leadership.title }}</h2>
   <p>{{ t.leadership.text }}</p>
 </section>

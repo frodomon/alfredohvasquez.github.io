@@ -518,6 +518,12 @@ footer nav a:last-child{
 .section-title {
   border-left: 4px solid var(--secondary-color);
 }
+.philosophy{
+  background: var(--primary-color);
+}
+.philosophy h2, .philosophy p{
+  color: var(--primary-bg-color);
+}
 /* ----------------------------GRID CAPABILITIES--------------------- */
 .capability-grid {
   display: grid;

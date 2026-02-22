@@ -6,11 +6,11 @@ en:
     contact: "Let's connect"
 
     hero:
+      eyebrow: "Strategic Design Leadership"
       title: "Strategic Design Lead driving measurable impact across complex digital ecosystems."
       subtitle: "I lead multidisciplinary design teams to scale products, align business strategy and deliver meaningful customer impact across corporate and emerging markets."
       cta_primary: "Explore Case Studies"
       cta_secondary: "Let’s Connect"
-      eyebrow: "Strategic Design Leadership"
 
     credibility: "Design leadership across fintech, banking and digital platforms in Latin America."
 
@@ -90,19 +90,19 @@ en:
 
 es:
   home:
-    meta_title: "Strategic Design Lead | Liderando Impacto de Negocio"
+    meta_title: "Strategic Design Lead | Liderando Impacto en el Negocio"
     meta_description: "Strategic Design Lead impulsando impacto medible a través de estrategia de producto, design systems y alineación organizacional en ecosistemas digitales complejos."
     case_studies: "Casos de  Estudio"
     contact: "Escríbeme"
 
     hero:
-      title: "Strategic Design Lead impulsando impacto medible en ecosistemas digitales complejos."
-      subtitle: "Lidero equipos multidisciplinarios de diseño para escalar productos, alinear estrategia de negocio y generar impacto significativo en entornos corporativos y mercados emergentes."
+      eyebrow: "Strategic Design Leadership"
+      title: "Strategic Design Lead que entrega impacto medible en ecosistemas digitales complejos."
+      subtitle: "Lidero equipos multidisciplinarios de diseño para escalar productos, alinear la estrategia de negocio y generar impacto significativo en entornos corporativos y mercados emergentes."
       cta_primary: "Explorar Casos"
       cta_secondary: "Conversemos"
-      eyebrow: "Strategic Design Leadership"
-
-    credibility: "Liderazgo en diseño a través de fintech, banca y plataformas digitales en Latinoamérica."
+      
+    credibility: "Liderazgo de diseño para el sector fintech, banca y plataformas digitales en Latinoamérica."
 
     what:
       title: "Liderazgo en diseño en la intersección de producto, sistemas y negocio."
