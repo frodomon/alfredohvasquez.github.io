@@ -68,7 +68,7 @@ permalink: /
 </section>
 <!-- FEATURED CASES -->
 <section class="featured-cases">
-  <h2>{{ t.cases.title }}</h2>
+  <h2 class="section-title">{{ t.cases.title }}</h2>
   <p>{{ t.cases.description }}</p>
   <div class="hero-actions">
     <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">{{ t.cases.cta }}</a>

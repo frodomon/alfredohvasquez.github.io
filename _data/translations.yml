@@ -58,7 +58,7 @@ en:
 
     final:
       title: "Let’s build design organizations that scale."
-      cta: "Start a Conversation"
+      cta: "Let's connect"
   # Caso Janus (EN)
   janus:
     cover_image: /assets/images/janus-cover.webp
@@ -148,7 +148,7 @@ es:
 
     final:
       title: "Construyamos organizaciones de diseño que escalen."
-      cta: "Iniciar Conversación"  
+      cta: "Conversemos"  
   janus:
     cover_image: /assets/images/janus-cover.webp
     case_studies: "Casos de  Estudio"
